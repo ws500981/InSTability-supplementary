@@ -27,7 +27,7 @@ for Visium and Visium HD samples. The cerebellum uses continuous coordinates.
 
 Run commands from the repository root. Create the method-specific environments
 using [environments/README.md](environments/README.md); it also covers R/mclust
-and the historical Leiden/Louvain Scanpy version.
+and the Leiden/Louvain Scanpy version.
 
 For example:
 
