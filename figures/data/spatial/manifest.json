@@ -1,0 +1,614 @@
+[
+  {
+    "sample": "dlpfc_151507",
+    "spots": 4020,
+    "variables": 0,
+    "source_file": "dlpfc_151507.h5ad",
+    "bytes": 5211512,
+    "sha256": "847260e8e08a6a1427028bec25435bba21ad7fea9e4736190a0e8a2ae6b64e86",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 3,
+      "louvain": 29,
+      "bayesspace": 0,
+      "graphst": 1,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 6,
+      "stagate_mclust": 0,
+      "spicemix": 0
+    },
+    "image_shape": [
+      1534,
+      1534,
+      3
+    ],
+    "image_extent": [
+      213.5,
+      1747.5,
+      1836.5,
+      302.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151508",
+    "spots": 4001,
+    "variables": 0,
+    "source_file": "dlpfc_151508.h5ad",
+    "bytes": 5297970,
+    "sha256": "f8f971b8b7aec43381e8788dc96d05552adee6544105187af39d41f874385db8",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 0,
+      "bayesspace": 0,
+      "graphst": 11,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 45
+    },
+    "image_shape": [
+      1534,
+      1534,
+      3
+    ],
+    "image_extent": [
+      212.5,
+      1746.5,
+      1846.5,
+      312.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151509",
+    "spots": 4696,
+    "variables": 0,
+    "source_file": "dlpfc_151509.h5ad",
+    "bytes": 5829490,
+    "sha256": "901171f143dd389ea58c1de9a451bab10ad302cceb3709085254c41cfb61c6db",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 1,
+      "bayesspace": 0,
+      "graphst": 2,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 32
+    },
+    "image_shape": [
+      1546,
+      1546,
+      3
+    ],
+    "image_extent": [
+      216.5,
+      1762.5,
+      1861.5,
+      315.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151510",
+    "spots": 4552,
+    "variables": 0,
+    "source_file": "dlpfc_151510.h5ad",
+    "bytes": 5688172,
+    "sha256": "a2d219346c5b74afd6c20fc3749075cb1676f83a495279111bb6e5dc60bf3cac",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 10,
+      "louvain": 6,
+      "bayesspace": 0,
+      "graphst": 0,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 2,
+      "stagate_mclust": 0,
+      "spicemix": 6
+    },
+    "image_shape": [
+      1547,
+      1547,
+      3
+    ],
+    "image_extent": [
+      213.5,
+      1760.5,
+      1869.5,
+      322.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151669",
+    "spots": 3022,
+    "variables": 0,
+    "source_file": "dlpfc_151669.h5ad",
+    "bytes": 4457297,
+    "sha256": "c3bdbf09d61d22ec33402f143761d8986151ec819a30c6ac0c5112599caf350c",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 0,
+      "bayesspace": 0,
+      "graphst": 27,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 43,
+      "stagate_mclust": 0,
+      "spicemix": 23
+    },
+    "image_shape": [
+      1492,
+      1492,
+      3
+    ],
+    "image_extent": [
+      386.5,
+      1878.5,
+      1795.5,
+      303.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151670",
+    "spots": 2731,
+    "variables": 0,
+    "source_file": "dlpfc_151670.h5ad",
+    "bytes": 4195641,
+    "sha256": "3bb97d71b897e400fd1c923f3ea4ea3000e90666aa2296ad1d1689d7194f4e01",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 46,
+      "bayesspace": 0,
+      "graphst": 1,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 0
+    },
+    "image_shape": [
+      1455,
+      1455,
+      3
+    ],
+    "image_extent": [
+      400.5,
+      1855.5,
+      1751.5,
+      296.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151671",
+    "spots": 3461,
+    "variables": 0,
+    "source_file": "dlpfc_151671.h5ad",
+    "bytes": 4835948,
+    "sha256": "ab9604f52ed03142ab91c39c8d0141f546b7592c2bb5f13850d7c61e263eccb1",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 0,
+      "bayesspace": 0,
+      "graphst": 6,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 0
+    },
+    "image_shape": [
+      1511,
+      1511,
+      3
+    ],
+    "image_extent": [
+      379.5,
+      1890.5,
+      1834.5,
+      323.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151672",
+    "spots": 3402,
+    "variables": 0,
+    "source_file": "dlpfc_151672.h5ad",
+    "bytes": 4654108,
+    "sha256": "1198470928055a663a01b160cee7a0de401cfb05d543823eb20c15eaf48b202c",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 0,
+      "bayesspace": 0,
+      "graphst": 0,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 0
+    },
+    "image_shape": [
+      1472,
+      1472,
+      3
+    ],
+    "image_extent": [
+      399.5,
+      1871.5,
+      1806.5,
+      334.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151673",
+    "spots": 3534,
+    "variables": 0,
+    "source_file": "dlpfc_151673.h5ad",
+    "bytes": 4730185,
+    "sha256": "1694b6def829731085d42ca48b0e252501a98b427b5243d6b30f7a2cc50aa9c8",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 0,
+      "bayesspace": 0,
+      "graphst": 3,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 3
+    },
+    "image_shape": [
+      1519,
+      1520,
+      3
+    ],
+    "image_extent": [
+      301.5,
+      1821.5,
+      1810.5,
+      291.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151674",
+    "spots": 3649,
+    "variables": 0,
+    "source_file": "dlpfc_151674.h5ad",
+    "bytes": 4658355,
+    "sha256": "51af3a88600abe5aa9c9d62eca94e4ac1d023c2423f928b199f64d79cb11d8cf",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 10,
+      "louvain": 10,
+      "bayesspace": 0,
+      "graphst": 36,
+      "graphst_mclust": 0,
+      "sedr": 11,
+      "sedr_mclust": 0,
+      "stagate": 16,
+      "stagate_mclust": 0,
+      "spicemix": 3
+    },
+    "image_shape": [
+      1538,
+      1538,
+      3
+    ],
+    "image_extent": [
+      273.5,
+      1811.5,
+      1839.5,
+      301.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151675",
+    "spots": 3173,
+    "variables": 0,
+    "source_file": "dlpfc_151675.h5ad",
+    "bytes": 4595186,
+    "sha256": "6fd5f429bc4041174a93dd9a57a3112e2b018f2377b4887358dfaf553c8fae8c",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 2,
+      "louvain": 1,
+      "bayesspace": 0,
+      "graphst": 0,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 39
+    },
+    "image_shape": [
+      1535,
+      1535,
+      3
+    ],
+    "image_extent": [
+      276.5,
+      1811.5,
+      1844.5,
+      309.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "dlpfc_151676",
+    "spots": 3149,
+    "variables": 0,
+    "source_file": "dlpfc_151676.h5ad",
+    "bytes": 4074207,
+    "sha256": "aade32e05c87dab522991b94fbe664b8d9168fc083cf83729e18c77eb2a4d27b",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 4,
+      "louvain": 6,
+      "bayesspace": 0,
+      "graphst": 3,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 16
+    },
+    "image_shape": [
+      1435,
+      1435,
+      3
+    ],
+    "image_extent": [
+      376.5,
+      1811.5,
+      1759.5,
+      324.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "mouse_brain",
+    "spots": 2264,
+    "variables": 0,
+    "source_file": "mouse_brain.h5ad",
+    "bytes": 7398606,
+    "sha256": "ffc4c335660c1cb9d78266a193907fb8b372c86bae836b4ba66f5e48b56e1779",
+    "image_encoding": {},
+    "example_indices": {
+      "leiden": 12,
+      "louvain": 5,
+      "bayesspace": 0,
+      "graphst": 4,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 23,
+      "stagate_mclust": 0,
+      "spicemix": 0
+    },
+    "image_shape": [
+      1252,
+      1253,
+      3
+    ],
+    "image_extent": [
+      356.5,
+      1609.5,
+      1789.5,
+      537.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "mouse_brain_cerebellum",
+    "spots": 25548,
+    "variables": 0,
+    "source_file": "mouse_brain_cerebellum.h5ad",
+    "bytes": 1571053,
+    "sha256": "e92b5ecb3420c3150206addab6d36a9b11214f2bfff2f8085e58e4b06b2acf01",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 0,
+      "louvain": 0,
+      "bayesspace": 0,
+      "graphst": 1,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 1,
+      "stagate_mclust": 0,
+      "spicemix": 32
+    },
+    "image_shape": [
+      226,
+      227,
+      3
+    ],
+    "image_extent": [
+      33.5,
+      260.5,
+      255.5,
+      29.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "human_breast_cancer",
+    "spots": 3795,
+    "variables": 0,
+    "source_file": "human_breast_cancer.h5ad",
+    "bytes": 6903063,
+    "sha256": "a351e76f109aa0f413c39236b8f1e9cdf10ef5fcf979f3ee53ea51a9dbae4343",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 18,
+      "louvain": 24,
+      "bayesspace": 0,
+      "graphst": 3,
+      "graphst_mclust": 0,
+      "sedr": 17,
+      "sedr_mclust": 0,
+      "stagate": 32,
+      "stagate_mclust": 0,
+      "spicemix": 31
+    }
+  },
+  {
+    "sample": "Visium_HD_Human_Colon_Cancer_cropped_square",
+    "spots": 21656,
+    "variables": 0,
+    "source_file": "Visium_HD_Human_Colon_Cancer_cropped_square.h5ad",
+    "bytes": 3626196,
+    "sha256": "42c97f71a6ee947f1ae8cedd7b81b37c2547f0b17e63423c0b6cf9078890fa3a",
+    "image_encoding": {
+      "hires": "float32"
+    },
+    "example_indices": {
+      "leiden": 4,
+      "louvain": 4,
+      "bayesspace": 0,
+      "graphst": 0,
+      "graphst_mclust": 0,
+      "sedr": 8,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 1
+    },
+    "image_shape": [
+      897,
+      897,
+      3
+    ],
+    "image_extent": [
+      3656.5,
+      4553.5,
+      1840.5,
+      943.5
+    ],
+    "resized": false
+  },
+  {
+    "sample": "ov_ffpe",
+    "spots": 27291,
+    "variables": 0,
+    "source_file": "ov_ffpe.h5ad",
+    "bytes": 8780441,
+    "sha256": "2cdf088169ec50ca92c9cbf745d4bdc37813281bde3341c843e4dfe36a56c518",
+    "image_encoding": {},
+    "example_indices": {
+      "leiden": 46,
+      "louvain": 39,
+      "bayesspace": 0,
+      "graphst": 4,
+      "graphst_mclust": 0,
+      "sedr": 4,
+      "sedr_mclust": 0,
+      "stagate": 43,
+      "stagate_mclust": 0,
+      "spicemix": 33
+    },
+    "image_shape": [
+      1600,
+      1600,
+      3
+    ],
+    "image_extent": [
+      13207.5,
+      19431.5,
+      19420.5,
+      13196.5
+    ],
+    "resized": true
+  },
+  {
+    "sample": "coad_ffpe",
+    "spots": 27494,
+    "variables": 0,
+    "source_file": "coad_ffpe.h5ad",
+    "bytes": 8855874,
+    "sha256": "8e841bdf79cac93c01853ee4197ba5e154787327832aaea8fa9bb5598d7f3113",
+    "image_encoding": {},
+    "example_indices": {
+      "leiden": 20,
+      "louvain": 3,
+      "bayesspace": 0,
+      "graphst": 7,
+      "graphst_mclust": 0,
+      "sedr": 0,
+      "sedr_mclust": 0,
+      "stagate": 0,
+      "stagate_mclust": 0,
+      "spicemix": 0
+    },
+    "image_shape": [
+      1600,
+      1600,
+      3
+    ],
+    "image_extent": [
+      13392.5,
+      19607.5,
+      26033.5,
+      19817.5
+    ],
+    "resized": true
+  }
+]

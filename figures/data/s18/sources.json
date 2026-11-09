@@ -1,0 +1,146 @@
+[
+  {
+    "file": "dlpfc_151507.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151507_per_run/seed_42_memberships.rds",
+    "source_sha256": "77594154077d320a0ac9e614a066509b104b8576aea2b21924dfd96be4f8eaa2",
+    "sha256": "c2ddbc5b884c1dd522905c69ca1708788c44e827deb4a1aecd023f00f5b61256",
+    "n_spots": 4020,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151508.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151508_per_run/seed_42_memberships.rds",
+    "source_sha256": "e3a73514af2504750bf4399f960900f0981019301842e2534d0dfb1c5cfb816f",
+    "sha256": "60ac039dfa7adfe6e77eeb31f340933011924cf9b3f59979b19fbb1cd68a45f8",
+    "n_spots": 4001,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151509.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151509_per_run/seed_42_memberships.rds",
+    "source_sha256": "6d40b92056e3187e080bf6fc1e757fd5411b285e8bdd001eb0393f18c1f9c8ee",
+    "sha256": "053d900d27d071198849371a689d1083b855a7cc3e167597e2303cf401a4ed69",
+    "n_spots": 4696,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151510.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151510_per_run/seed_42_memberships.rds",
+    "source_sha256": "812f4deb1b7516f7271e093fcfb131a2552e6770f84e9bbf1779b0a4bf78fe04",
+    "sha256": "81b2166c039de81100410b56ecc1a43d1a99d2bc01f91b0f056d4b163eaa26cf",
+    "n_spots": 4552,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151669.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151669_per_run/seed_42_memberships.rds",
+    "source_sha256": "c6a0d7905ded6eab5395ee59bee0f0ceaf17de63f2a746c68f91248ec6d5e3af",
+    "sha256": "05907973d14e1cd93a80bc3b67cb948b7da6d1f6834e2633124d3ee5064ffa66",
+    "n_spots": 3022,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151670.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151670_per_run/seed_42_memberships.rds",
+    "source_sha256": "254f864bbdc76f500aae10e3abcad8f61b5c72a451c53b240ca5bd4ee28adfee",
+    "sha256": "9b43e3022b11e7480919eb7e5a1adf71128052d68eeec86129066f376d1bbff0",
+    "n_spots": 2731,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151671.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151671_per_run/seed_42_memberships.rds",
+    "source_sha256": "b6b6c091e9922445758a22a70457efc37915218a691886a390bd47a82ff4e635",
+    "sha256": "6d1a0e3bef600c324a771638b73afd6f82cf2a1fcfee050db7b67a035b5846bb",
+    "n_spots": 3461,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151672.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151672_per_run/seed_42_memberships.rds",
+    "source_sha256": "b2a81866097098a53dc2756bdcc8a5751d4c8d2fa4bca0d372740f87ebf5ccfc",
+    "sha256": "1ab74234d0c930545f63a3ef75de550b4eb0aa4017f4980ddd5d46d60fa66487",
+    "n_spots": 3402,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151673.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151673_per_run/seed_42_memberships.rds",
+    "source_sha256": "919face36a73dc3bb45b42787b6d47699c97440a6bfa1fc99e7f819090557600",
+    "sha256": "b060f9c2e77a37bc5de7d8c56c1e7fd758b22ab07659fd030a40e20d6b9404f4",
+    "n_spots": 3534,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151674.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151674_per_run/seed_42_memberships.rds",
+    "source_sha256": "90833c71e46a5d5650354c3ad9db0b90e1741d23a1a95b4600920bba0773fbe7",
+    "sha256": "1be9b766724c3bdce8e7ac5ed758adbd6ee32fd92fd8b8dfc9f9008045796527",
+    "n_spots": 3649,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151675.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151675_per_run/seed_42_memberships.rds",
+    "source_sha256": "8382e48671b33a1b92b81f0bd1ae6374e8173842f31552d7ff948ec736be1a0e",
+    "sha256": "f94d3a465437811b4528da7043666eeb6234419b28ac2a9dea03084a4e2cc181",
+    "n_spots": 3173,
+    "seed": 42
+  },
+  {
+    "file": "dlpfc_151676.npz",
+    "source": "dlpfc/bayesspace/dlpfc_151676_per_run/seed_42_memberships.rds",
+    "source_sha256": "87685c27d73ab3eed4986d7902ea1943136d75600231252454a89afa80679691",
+    "sha256": "324fa42654084845c42bca78b67b9570cef020d4abc569b32d87938a2aa12000",
+    "n_spots": 3149,
+    "seed": 42
+  },
+  {
+    "file": "mouse_brain.npz",
+    "source": "mouse_brain/bayesspace/mouse_brain_per_run/seed_42_memberships.rds",
+    "source_sha256": "853d217b1d6aa2888ee18181b2af8a2a6bfd1357c6736caa704314bd29e936f1",
+    "sha256": "70e77003d68d78bf80878b67a8196465791a70a6d7bbf106d2ff2d1efa2743b5",
+    "n_spots": 2264,
+    "seed": 42
+  },
+  {
+    "file": "mouse_brain_cerebellum.npz",
+    "source": "mouse_brain_cerebellum/bayesspace/mouse_brain_cerebellum_per_run/seed_42_memberships.rds",
+    "source_sha256": "8b4ef3746c6832cecd7b6a709133e77c31e87eb0c4becdd9462548b8b9263961",
+    "sha256": "b198f960347e33dc5d1d30126fd77508042f66fbc71bdebd1be0a2fb36276c11",
+    "n_spots": 25548,
+    "seed": 42
+  },
+  {
+    "file": "human_breast_cancer.npz",
+    "source": "human_breast_cancer/bayesspace/human_breast_cancer_per_run/seed_42_memberships.rds",
+    "source_sha256": "731226602f8ba42244bbdfc2ddba4b88a753c28de35a1ff9c39d5d2f64703e97",
+    "sha256": "b920dcda275da691414fa365f1ed5aecbd166cd387f13bd3d25f290f4e283e8c",
+    "n_spots": 3795,
+    "seed": 42
+  },
+  {
+    "file": "Visium_HD_Human_Colon_Cancer_cropped_square.npz",
+    "source": "Visium_HD_Human_Colon_Cancer_cropped_square/bayesspace/Visium_HD_Human_Colon_Cancer_cropped_square_per_run/seed_42_memberships.rds",
+    "source_sha256": "981de26c74af30b08d83620fd846775be18718fd2a008d082e99d50ea237fde7",
+    "sha256": "612927a0eeccb47ff5597a4dfcb26a88382f4ea83c1bef450af580cfb816e9ec",
+    "n_spots": 21656,
+    "seed": 42
+  },
+  {
+    "file": "ov_ffpe.npz",
+    "source": "ov_ffpe/bayesspace/ov_ffpe_per_run/seed_42_memberships.rds",
+    "source_sha256": "8e657b8737fe653b042d9c3e791c92c1e880447b8dfa85fb66f4ed02e6ffe62d",
+    "sha256": "863191b01108ac026cdf5a97e522088e7ead028a208b331a8995acb65cd5a60c",
+    "n_spots": 27291,
+    "seed": 42
+  },
+  {
+    "file": "coad_ffpe.npz",
+    "source": "coad_ffpe/bayesspace/coad_ffpe_per_run/seed_42_memberships.rds",
+    "source_sha256": "462eb27ac34ab7548a17476a2ba6173b4859dd0332895b823cbda2fdc7def2da",
+    "sha256": "88acd71a24a4b611ff5f85724c2fc0aa53a27d8b94033141bd0a1d5270bf571a",
+    "n_spots": 27494,
+    "seed": 42
+  }
+]

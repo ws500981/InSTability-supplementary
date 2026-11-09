@@ -1,0 +1,14 @@
+[
+  {
+    "file": "s27_convergence_sampled_sample_values.csv",
+    "source": "zzz_all_plots/supp/s27_diff_r_convergence/s27_convergence_sampled_sample_values.csv",
+    "sha256": "15e6b6ba29113338920005154bfff63337377b0233642b9890fb9d308c58ddca",
+    "rows": 1800
+  },
+  {
+    "file": "s27_convergence_nested_sample_values.csv",
+    "source": "zzz_all_plots/supp/s27_diff_r_convergence/s27_convergence_nested_sample_values.csv",
+    "sha256": "8f120f9b78f7407ae53856271e3328a7982f932fcd6e302d707c96b2824b3674",
+    "rows": 1800
+  }
+]

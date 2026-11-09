@@ -1,0 +1,19 @@
+Group,Dataset,Sample,Spots
+DLPFC,151507,dlpfc_151507,4020
+DLPFC,151508,dlpfc_151508,4001
+DLPFC,151509,dlpfc_151509,4696
+DLPFC,151510,dlpfc_151510,4552
+DLPFC,151669,dlpfc_151669,3022
+DLPFC,151670,dlpfc_151670,2731
+DLPFC,151671,dlpfc_151671,3461
+DLPFC,151672,dlpfc_151672,3402
+DLPFC,151673,dlpfc_151673,3534
+DLPFC,151674,dlpfc_151674,3649
+DLPFC,151675,dlpfc_151675,3173
+DLPFC,151676,dlpfc_151676,3149
+Other,MB,mouse_brain,2264
+Other,HBC,human_breast_cancer,3795
+Other,MBC,mouse_brain_cerebellum,25548
+Cropped Visium HD Samples,CRC,Visium_HD_Human_Colon_Cancer_cropped_square,21656
+Cropped Visium HD Samples,COAD,coad_ffpe,27494
+Cropped Visium HD Samples,OV,ov_ffpe,27291

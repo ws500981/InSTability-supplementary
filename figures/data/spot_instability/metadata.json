@@ -1,0 +1,41 @@
+{
+  "figure": "4",
+  "samples": 18,
+  "methods": 10,
+  "run_counts": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "file_pattern": "<sample_tag>__<method>.npz",
+  "array_names": [
+    "scores_5",
+    "scores_10",
+    "scores_20",
+    "scores_40"
+  ],
+  "array_dtype": "float32",
+  "row_order": "obs_names in ../spatial/<sample_tag>.h5ad",
+  "reference_scores": "50-run scores are in the shared spatial file's <method>_uncertainty observation column.",
+  "selection": "First K runs from seeds 42 through 91; leave-one-run-out instability; values above 1 are retained.",
+  "source": "Saved 1-nested-non-sampling instability results, copied losslessly without recomputation.",
+  "spatial_panel": "Every spot is retained at each plotted run count.",
+  "transition_panel": "Every paired spot contributes to the 50-versus-K transition counts.",
+  "hexbin_panel": "A deterministic sample of at most 10000 spots per sample, shared across K (NumPy default_rng seed 42).",
+  "cluster_metrics": "../metrics/clusterwise_metrics.csv stores expression coherence/variance once for each of 1414 fixed example_50 clusters. cluster_metrics.load_cluster_metrics reconstructs run-dependent instability, sizes, reference indices/seeds, and annotation metrics from shared labels, annotations, and spot scores.",
+  "cluster_definition": "First run with the minimum cluster count among all 50 runs; clusters remain fixed across K.",
+  "expression_metrics": "From saved normalized/log1p counts, centered PCA, and unit-length first 20 PCs; expression matrices are not required to plot. All fixed metrics were verified identical across the ten original run counts before removing repetition.",
+  "annotation_metrics": "Maximum-Jaccard annotation match on nonmissing annotation spots; the same match defines Jaccard, recall, and precision.",
+  "supplementary_figures": [
+    "S28",
+    "S29",
+    "S30",
+    "S31",
+    "S32",
+    "S33",
+    "S34",
+    "S35",
+    "S36"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "workers": 186,
+  "cpu_model": "AMD EPYC 9454 48-Core Processor",
+  "node_memory_kib": 3169916540,
+  "allocated_cpus": 192,
+  "note": "Original benchmark had 186 concurrent sample-method tasks; tables retain the 180 tasks for the 18 paper samples."
+}

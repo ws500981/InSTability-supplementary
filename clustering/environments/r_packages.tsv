@@ -1,0 +1,12 @@
+package	version	built_with	evidence
+BayesSpace	1.20.2	R 4.5.2	saved BayesSpace logs and installed metadata
+zellkonverter	1.20.1	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+SingleCellExperiment	1.32.0	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+SummarizedExperiment	1.40.0	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+S4Vectors	0.48.0	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+Matrix	1.7-4	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+BiocSingular	1.26.1	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+BiocParallel	1.44.0	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+BiocNeighbors	2.4.0	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded
+mclust	6.1.2	R 4.5.2	saved SEDR preflight and installed metadata
+clue	0.3-66	R 4.5.2	installed R 4.5 package metadata; historical runtime not recorded

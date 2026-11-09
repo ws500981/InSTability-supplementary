@@ -1,0 +1,96 @@
+{
+  "python_checks": [
+    {
+      "file": "leiden_louvain.py",
+      "scientific_ast_unchanged": true
+    },
+    {
+      "file": "graphst.py",
+      "scientific_ast_unchanged": true
+    },
+    {
+      "file": "stagate.py",
+      "scientific_ast_unchanged": true
+    },
+    {
+      "file": "sedr.py",
+      "scientific_ast_unchanged": true
+    },
+    {
+      "file": "spicemix.py",
+      "scientific_ast_unchanged": true
+    },
+    {
+      "file": "spicemix_prepare_input.py",
+      "scientific_ast_unchanged": true
+    },
+    {
+      "file": "functions.py",
+      "scientific_ast_unchanged": true
+    }
+  ],
+  "original_hashes_unchanged": true,
+  "paths_independent_of_working_directory": true,
+  "allowed_changes": [
+    "comments/docstrings/formatting",
+    "portable roots",
+    "18-sample scope for Leiden/Louvain",
+    "STAGATE CPU allocation defaults",
+    "retain only used shared helpers",
+    "updated CLI help and informational filenames/sample count",
+    "external SpiceMix imports with equivalent NumPy dtype aliases"
+  ],
+  "full_clustering_executed": false,
+  "synthetic_smoke_checks": {
+    "cli_parser_and_help": true,
+    "count_validation_and_fallback": true,
+    "tiny_graph_leiden_louvain_matches_original": true,
+    "paper_clustering_rerun": false
+  },
+  "r_checks": {
+    "bayesspace_syntax": true,
+    "all_22_original_function_bodies_unchanged": true,
+    "non_path_expressions_unchanged": true,
+    "environment_installer_syntax": true
+  },
+  "environment_installation_tested": false,
+  "publication_copy_sha256": {
+    "bayesspace.R": "51739e4bff39c671194b119b6fa76f9ce24119c5ea912f90edf8767dff33dcc8",
+    "functions.py": "f17a969f3fa44c17e7497362c35b531a1fbbc30d0f62c0e896103f28476a00de",
+    "graphst.py": "25f7297d96d72f43b2cd08a14b07da6e90d6095e37a522d64abc57de631fc36d",
+    "leiden_louvain.py": "7fc55f7d29ef3fc96c550bc84be77363768fc1dad7048a250b17d040b2b7763c",
+    "paths.py": "fde5ea8ff2f68dbe1707f9e33b54b6db293ff9f16192f3d885c7b03402a5199f",
+    "sedr.py": "3c764bf7c2b6833fb30b1b084a9ec35ae7f4ea095cf0c508cdbc56471b42bcc9",
+    "spicemix.py": "52cd9e422213cbe9e71be09fef4b610425700d8eb82356b9030c72098e5fef2e",
+    "spicemix_external.py": "6ee4179a13415bf8c240f18f7aa0ea89dce0e08285a3cdfee8a3d72ce949650a",
+    "spicemix_prepare_input.py": "3756714d4556843538301ba07b36e3a755164905e8e432c6b73b79337acf84e9",
+    "stagate.py": "f030feedfe6a4afd42b995bea4e68a725a982fb8a64b42f7a3c8f45f6e0bed85"
+  },
+  "external_spicemix": {
+    "upstream": "https://github.com/ma-compbio/SpiceMix",
+    "commit": "aea69f8081f33e8ca64b734c680804db907ed4eb",
+    "source_distributed_in_git": false,
+    "local_default": "not-included/SpiceMix/SpiceMix",
+    "dtype_compatibility": "np.float/np.int map to equivalent built-in types only within upstream load_data",
+    "local_smoke_checks": {
+      "external_origin_checked": true,
+      "source_files_unchanged": true,
+      "text_loaders_checked": true,
+      "spawned_worker_import": true,
+      "runner_import_and_cli": true,
+      "sample_count": 18,
+      "paper_clustering_rerun": false
+    },
+    "upstream_smoke_checks": {
+      "external_origin_checked": true,
+      "source_files_unchanged": true,
+      "text_loaders_checked": true,
+      "spawned_worker_import": true,
+      "runner_import_and_cli": true,
+      "sample_count": 18,
+      "paper_clustering_rerun": false
+    },
+    "missing_source_error_checked": true,
+    "conflicting_import_origin_checked": true
+  }
+}

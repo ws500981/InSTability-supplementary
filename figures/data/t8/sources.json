@@ -1,0 +1,14 @@
+[
+  {
+    "file": "runtime.csv",
+    "source": "zzz_all_plots/supp/t6/new/table6_preparation_clustering_values.csv",
+    "source_sha256": "26b5f16c2b883b55efd97d9f5db3d55a8983c0835933e55ef1310c19826dd2dc",
+    "sha256": "8677d4b1ff0e44e5f83b2a8c0954c2c83b93ab574bc097df8c92fdd6ee90312d"
+  },
+  {
+    "file": "samples.csv",
+    "source": "zzz_all_plots/supp/t6/new/table6_preparation_clustering.csv",
+    "source_sha256": "6ef8bcb40c5d6092d8a37bec9cdc2fc7f5eb666087769cb8c6e7fa474b59c168",
+    "sha256": "cd3c9295d10d4dcf2a63eb3fedeefcc0b361b7aa9b814752784c993d0b13616e"
+  }
+]

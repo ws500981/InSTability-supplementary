@@ -1,0 +1,149 @@
+{
+  "scope": {
+    "methods": [
+      "leiden",
+      "louvain",
+      "bayesspace",
+      "graphst",
+      "graphst_mclust",
+      "sedr",
+      "sedr_mclust",
+      "stagate",
+      "stagate_mclust",
+      "spicemix"
+    ],
+    "samples": [
+      "dlpfc_151507",
+      "dlpfc_151508",
+      "dlpfc_151509",
+      "dlpfc_151510",
+      "dlpfc_151669",
+      "dlpfc_151670",
+      "dlpfc_151671",
+      "dlpfc_151672",
+      "dlpfc_151673",
+      "dlpfc_151674",
+      "dlpfc_151675",
+      "dlpfc_151676",
+      "mouse_brain",
+      "mouse_brain_cerebellum",
+      "human_breast_cancer",
+      "Visium_HD_Human_Colon_Cancer_cropped_square",
+      "ov_ffpe",
+      "coad_ffpe"
+    ],
+    "n_runs": 50,
+    "top_k": [
+      10,
+      20,
+      50,
+      200
+    ]
+  },
+  "files": [
+    {
+      "file": "dgea/clusters.csv.gz",
+      "rows": 1414,
+      "columns": [
+        "cluster_id",
+        "sample_id",
+        "method",
+        "example_cluster"
+      ],
+      "bytes": 6869,
+      "sha256": "d3f0ba5f6aefe2e498abc9a0769902140d33ac1bf84993d90caf4e0b3938f0d9",
+      "source": "Example-cluster identifiers from saved DGEA plot tables"
+    },
+    {
+      "file": "dgea/matches.csv.gz",
+      "rows": 69286,
+      "columns": [
+        "cluster_id",
+        "target_run",
+        "best_jaccard"
+      ],
+      "bytes": 561230,
+      "sha256": "373e35695f7de5c0a39506e134359ff8668a61147fc5dbc4f48fe6e334eee6a6",
+      "source": "zzz_all_plots/fig4/plots_cluster_vs_rest/all_methods/cross_run/all_methods_pooled_best_matches.csv"
+    },
+    {
+      "file": "dgea/consistency.csv.gz",
+      "rows": 5656,
+      "columns": [
+        "cluster_id",
+        "top_k",
+        "jaccard_mean",
+        "rank_abs_diff_shared_mean",
+        "n_comparisons_available",
+        "rank_abs_diff_shared_mean_n_valid"
+      ],
+      "bytes": 108472,
+      "sha256": "503ab036b618add556bc508b539491ee9b743c9189a8c671b9d23197dce94e6f",
+      "source": "zzz_all_plots/fig4/plots_cluster_vs_rest/all_methods/cross_run/all_methods_cross_run_dgea_consistency_data.csv"
+    },
+    {
+      "file": "fig3/reference_quality.csv.gz",
+      "rows": 1414,
+      "columns": [
+        "cluster_id",
+        "clusterwise jaccard",
+        "clusterwise recall",
+        "clusterwise purity (precision)"
+      ],
+      "bytes": 34075,
+      "sha256": "883549a5224092b9031f827310c224231341d6ae5e916f8bfc67632aaaa237f5",
+      "source": "zzz_all_plots/fig4/plots_cluster_vs_rest/all_methods/cross_run/panel_c_reference_quality.csv"
+    },
+    {
+      "file": "fig3/showcase_alignment.csv.gz",
+      "rows": 980,
+      "columns": [
+        "cluster_id",
+        "target_run",
+        "target_cluster"
+      ],
+      "bytes": 3062,
+      "sha256": "b53e8c5104247c1b6b3227375abc2e8b3fa0f58ce0ce661d3c42dfa0f2aa83d4",
+      "source": "zzz_all_plots/fig4/dgea/human_breast_cancer/sedr_mclust/cross_run_matches.csv"
+    },
+    {
+      "file": "fig3/showcase_reference.csv.gz",
+      "rows": 20,
+      "columns": [
+        "cluster_id",
+        "target_cluster"
+      ],
+      "bytes": 192,
+      "sha256": "5aa387ed58835729f51a1a1cc5690facfca0c065845b381f2b05f87b5376f911",
+      "source": "zzz_all_plots/fig4/dgea/human_breast_cancer/sedr_mclust/reference_matches.csv"
+    }
+  ],
+  "verification": {
+    "sample_method_pairs": 180,
+    "example_clusters": 1414,
+    "other_run_matches": 69286,
+    "cluster_topk_rows": 5656,
+    "checks": [
+      "Producer completion markers and output sizes",
+      "Exactly 49 distinct other-run spatial matches per cluster",
+      "Saved cluster Jaccard means match the underlying run-level values",
+      "Figure 3 inputs equal S19/S20/S21 plot inputs",
+      "CSV gzip round trip preserves every exported value and missing value"
+    ]
+  },
+  "interpretation": {
+    "example_run": "First run with the minimum number of clusters among 50 runs",
+    "spatial_distribution": "Each example-cluster/target-run pair contributes one best spatial Jaccard match",
+    "spatial_scatter": "Each example cluster contributes one mean over 49 other runs",
+    "dgea": "Cluster-vs-rest Wilcoxon DEG lists; per-cluster averages across available comparisons; top 10/20/50/200",
+    "missing": "Empty CSV cells are missing values; never replace them with zero",
+    "rank_difference": "Mean absolute rank difference over shared genes within each run comparison, then mean across valid runs"
+  },
+  "derived_at_plot_time": [
+    "Cluster instability and example-run index from shared per-spot uncertainty and example labels",
+    "Instability bins from cluster instability",
+    "Cluster mean spatial Jaccard from the 49 saved run-level matches",
+    "Expected comparison count (49) and DEG Jaccard valid count (equal to n_comparisons_available in these results)",
+    "Showcase cluster sizes from shared clustering labels"
+  ]
+}

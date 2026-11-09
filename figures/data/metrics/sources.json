@@ -1,0 +1,16 @@
+[
+  {
+    "file": "sample_metrics.csv",
+    "bytes": 13513,
+    "sha256": "211563453597f34009af40e1fe7a022c072011f54617abe3c3c9bba23092ce02",
+    "source": "zzz_all_plots/fig3/all_sample_method_metrics_by_number_of_runs.csv",
+    "source_sha256": "c9188e365a7f076f3e848c0c82224a574f45246250b2714422f2d0d097874054"
+  },
+  {
+    "file": "clusterwise_metrics.csv",
+    "bytes": 104943,
+    "sha256": "7ba7c649b3917fe96eb09fd1c32e2ea2bfe11372548ebd33eac382864a5d7823",
+    "source": "zzz_all_plots/fig5/clusterwise_metrics_by_number_of_runs_new.csv",
+    "source_sha256": "de2f906a7cda83469b1764db7d920b100ca8b4d941e34bf83f110ed4f658eac4"
+  }
+]

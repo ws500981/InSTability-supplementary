@@ -1,0 +1,1 @@
+GPU-method jobs ran on NIH Biowulf nodes with four NVIDIA A100-SXM4-80GB GPUs, one 32-core AMD EPYC 7543P CPU (64 logical CPUs), and approximately 251 GiB of OS-visible RAM. Each sample's model training used one GPU; repeated clustering used CPUs.
