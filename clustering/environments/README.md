@@ -41,13 +41,6 @@ Rscript --vanilla clustering/environments/install_r_packages.R --bayesspace
 ```
 
 The setup installs `clue` and checks for BayesSpace 1.20.2, which is available in the [Bioconductor 3.22 archive](https://bioconductor.posit.co/packages/3.22/bioc/html/BayesSpace.html). An exact source-package URL is provided as a fallback. Bioconductor dependencies are resolved from release 3.22; this is a setup recipe, not a complete historical R lockfile. Package builds used for the saved analysis are recorded in `r_packages.tsv`. The BayesSpace runner uses zellkonverter's native R reader for H5AD files.
-
-## Provenance
-
-The four method exports and `leiden_louvain-current.yml` were obtained from the existing environments with `conda env export --no-builds` on 2026-11-09. Prefixes and machine-specific settings were removed. STAGATE and SEDR local installations were replaced with upstream Git commit references after verifying that their installed Python sources matched the local checkouts.
-
-`leiden_louvain.yml` is a smaller recipe using the core versions recorded by the production run. That run used Scanpy 1.10.3; the current environment has Scanpy 1.11.5. The current snapshot is retained as `leiden_louvain-current.yml` and is not the recommended historical recipe. H5py and scikit-learn pins in the smaller recipe come from the current environment because those versions were not recorded in the run metadata. Scikit-misc 0.1.4 is installed through conda, avoiding a pip source build.
-
-The saved GraphST/STAGATE/SEDR/SpiceMix software versions agree with the exported core versions. Exported R versions are 4.5.1 for GraphST and 4.5.2 for STAGATE/SEDR/SpiceMix. The saved SEDR preflight explicitly records R 4.5.2 and mclust 6.1.2. BayesSpace logs record 1.20.2; its installed package metadata records an R 4.5.2 build. The original BayesSpace launcher loaded an unversioned system R module, so the exact historical R runtime cannot be established from that launcher alone.
+ata records an R 4.5.2 build. The original BayesSpace launcher loaded an unversioned system R module, so the exact historical R runtime cannot be established from that launcher alone.
 
 Environment files were checked for syntax and personal paths. No environments were installed or modified, and fresh installation/full clustering runs have not been tested.
