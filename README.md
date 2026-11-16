@@ -1,6 +1,6 @@
 # InSTability supplementary code
 
-[Clustering code](clustering/README.md) for the paper's 10 methods, 18 samples,
+[Clustering code](clustering/README.md) for the [paper](https://doi.org/10.64898/2026.10.08.738042)'s 10 methods, 18 samples,
 and 50 clustering runs per sample and method.
 
 The instability method is maintained separately in
